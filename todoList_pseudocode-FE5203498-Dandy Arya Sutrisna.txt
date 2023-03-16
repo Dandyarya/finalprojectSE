@@ -1,0 +1,14 @@
+1Start
+2.Read AND Write "nama_kegiatan" with string
+3.Read AND Write "tgl_kegiatan" with date
+4.IF "Simpan is TRUE" 
+	Store "list_kegiatan" with "nama_kegiatan","tgl_kegiatan"
+	Print "list_kegiatan"
+Else 
+	Remove "nama_kegiatan","tgl_kegiatan"
+5.Read AND write "list_kegiatan" with string
+6.IF "edit_list is TRUE"
+	Edit "list_kegiatan" to step 2
+Else
+	break
+7.End
